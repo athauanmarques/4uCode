@@ -1,0 +1,136 @@
+ @import url('http://fonts.cdnfonts.com/css/gotham');
+ @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Sarala&display=swap');
+header{
+  position: absolute;
+  z-index: 1;
+}
+
+h1 {
+  color: #FF2E70;
+  font-size: 4em;
+  font-family: 'Gotham Ultra', sans-serif;
+  text-transform: uppercase;
+  font-weight:500;
+
+}
+h2{
+  color: #302E35;
+  font-family: 'Gotham Black', sans-serif;
+
+}
+
+h3 {
+  font-family: 'Gotham Black', sans-serif;
+  font-size: 3em;
+  font-style: italic;
+}
+
+p {
+  font-family: 'Sarala', sans-serif;
+}
+header h1 {
+  color: #FF2E70;
+  font-size: 4em;
+  font-family: 'Gotham Ultra', sans-serif;
+  text-transform:none;
+
+}
+
+header h5 {
+  color: #E0009E;
+  font-family: 'Sarala', sans-serif;
+
+}
+
+nav a{
+  font-family: 'Gotham Ultra', sans-serif;
+}
+
+.sombra-letra {
+  text-shadow: 0 1px 0 #3F0770,
+    0 2px 0 #3F0770,
+    0 3px 0 #3F0770,
+    0 4px 0 #3F0770,
+    0 5px 0 #3F0770,
+    0 6px 1px rgba(14, 5, 133, 0.1),
+    0 0 5px rgba(0, 0, 0, .1),
+    0 1px 3px rgba(0, 0, 0, .3),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.sobre h2{
+  color: #fff;
+}
+
+.sobre h3 {
+  color: #FAFAFA;
+  font-size: 1.2em;
+}
+
+.sobre p {
+  color: #B4B8C5;
+  font-size: 1em;
+ 
+}
+.ceoTitulo{
+  font-family: 'Gotham Light', sans-serif;
+}
+.ceoDescricao{
+  color: #B3B7C4;
+}
+
+.fundoRoxo{
+  background-color: #3F0770;
+}
+
+.servicos h3 {
+  color: #302E35;
+}
+
+.contato {
+  background-color: #3F0770;
+}
+
+
+footer {
+  background-color: #3F0770;
+}
+
+footer span {
+  font-family: 'Mr Dafoe', cursive;
+  text-transform:capitalize;
+  font-size:  1.5em;
+  color: #fff;
+}
+footer span:hover{
+  color: #FF2E70;
+}
+
+.container-footer-rede-social {
+  background-color: #2A0548;
+}
+
+.btn {
+	box-shadow: 0px 10px 14px -7px #950068;
+	background:linear-gradient(to bottom, #e0009d 5%, #950068 100%);
+	background-color:#e0009d;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Gotham Light', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:24px 32px;
+	text-decoration:none;
+  text-transform: uppercase;
+	text-shadow:0px 1px 0px #e0009d;
+}
+.btn:hover{
+  background:linear-gradient(to bottom, #791BC9 5%, #3F0770 100%);
+	background-color:#FAFAFA;
+}
+

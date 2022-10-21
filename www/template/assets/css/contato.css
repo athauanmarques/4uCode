@@ -1,0 +1,175 @@
+/*Botão Enviar*/
+
+@keyframes heartbeat {
+	from {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: center center;
+		transform-origin: center center;
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+
+	10% {
+		-webkit-transform: scale(0.91);
+		transform: scale(0.91);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+
+	17% {
+		-webkit-transform: scale(0.98);
+		transform: scale(0.98);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+
+	33% {
+		-webkit-transform: scale(0.87);
+		transform: scale(0.87);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+
+	45% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+}
+
+/*forms focus*/
+@-webkit-keyframes slide-in-fwd-bottom {
+	0% {
+		-webkit-transform: translateZ(-1400px) translateY(800px);
+		transform: translateZ(-1400px) translateY(800px);
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: translateZ(0) translateY(0);
+		transform: translateZ(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes slide-in-fwd-bottom {
+	0% {
+		-webkit-transform: translateZ(-1400px) translateY(800px);
+		transform: translateZ(-1400px) translateY(800px);
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: translateZ(0) translateY(0);
+		transform: translateZ(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+
+
+.section-contact .form-contact .single-input {
+	position: relative;
+	margin-top: 20px;
+
+}
+
+.section-contact .form-contact .single-input input,
+.section-contact .form-contact .single-input textarea {
+	background-color: #791BC9;
+	width: 100%;
+	border: none;
+	border-bottom: 8px solid #E0009E;
+	border-radius: 25px;
+	padding: 20px;
+	padding-bottom: 15px;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: border .3s;
+}
+
+.section-contact .form-contact .single-input input::placeholder,
+.section-contact .form-contact .single-input textarea::placeholder {
+	color: #3F0770;
+}
+
+.section-contact .form-contact .single-input input:focus,
+.section-contact .form-contact .single-input textarea:focus {
+	background-color: #FF2E70;
+	border-color: #3F0770;
+	-webkit-animation: slide-in-fwd-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-fwd-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.section-contact .form-contact .single-input textarea {
+	height: 150px;
+	min-height: 50px;
+}
+
+.section-contact .form-contact .submit-input input {
+	margin-top: 40px;
+	padding: 15px 50px;
+	border-radius: 25px;
+	background-color: #de3842;
+	color: #791BC9;
+	border: solid;
+	font-weight: 700;
+	transition: background-color .3s;
+
+}
+
+.section-contact .form-contact .submit-input input:hover {
+	background-color: #00FF0A;
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+
+@media (max-width: 575.99px) {
+	.section-contact {
+		padding: 80px 60px;
+	}
+
+	.section-contact .header-section .title {
+		font-size: 40px;
+	}
+
+	.section-contact .header-section .big-title {
+		font-size: 80px;
+	}
+
+	.section-contact .header-section .description {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+	.section-contact {
+		padding: 80px 60px;
+	}
+
+	.section-contact .header-section .title {
+		font-size: 45px;
+	}
+
+	.section-contact .header-section .big-title {
+		font-size: 100px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+	.section-contact {
+		padding: 80px 60px;
+	}
+
+	.section-contact .header-section .title {
+		font-size: 45px;
+	}
+
+	.section-contact .header-section .big-title {
+		font-size: 100px;
+	}
+}

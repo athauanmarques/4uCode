@@ -1,0 +1,90 @@
+@-webkit-keyframes puff-in-hor {
+    0% {
+        -webkit-transform: scaleX(2);
+        transform: scaleX(2);
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1
+    }
+}
+
+@keyframes puff-in-hor {
+    0% {
+        -webkit-transform: scaleX(2);
+        transform: scaleX(2);
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes focus-in-contract {
+    0% {
+        letter-spacing: 1em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1
+    }
+}
+
+@keyframes focus-in-contract {
+    0% {
+        letter-spacing: 1em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+
+html {
+    overflow: hidden;
+}
+
+section {
+    background-image: linear-gradient(to right top, #781ac8, #7219be, #6c18b4, #6616ab, #6015a1, #5a1796, #55188b, #4f1980, #481c71, #421e63, #3b1f55, #341f47);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*Animações*/
+.puff-in-hor:hover {
+    -webkit-animation: puff-in-hor .7s cubic-bezier(.47, 0.000, .745, .715) both;
+    animation: puff-in-hor .7s cubic-bezier(.47, 0.000, .745, .715) both
+}
+
+.focus-in-contract {
+    -webkit-animation: focus-in-contract 1s cubic-bezier(.215, .61, .355, 1.000) both;
+    animation: focus-in-contract 1s cubic-bezier(.215, .61, .355, 1.000) both
+}

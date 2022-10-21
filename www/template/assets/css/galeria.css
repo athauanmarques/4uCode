@@ -1,0 +1,32 @@
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+@media (max-width: 768px){
+  .mImgDesktop{
+    display: none;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .mobilieImg{
+    display: none;
+  };
+  source{
+    src: url('./assets/video/AFTERMOVIE_mobilep.mp4');
+  }
+  
+  }
