@@ -1,4 +1,4 @@
-![](https://github.com/athauanmarques/fourcode/blob/master/doc/.github/4uCodeGithub.png)
+![](https://github.com/athauanmarques/4uCode/blob/master/doc/.github/4uCodeGithub.png)
 
 ## Website - 4uCode
 
