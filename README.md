@@ -6,7 +6,7 @@
 
 ## 🚀 Começando
 
-No terminal digite: git clone **https://github.com/athauanmarques/fourcode**
+No terminal digite: git clone **https://github.com/athauanmarques/4uCode**
 
 Abre o IDE e selecione a pasta do projeto;
 
