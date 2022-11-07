@@ -78,10 +78,10 @@
 
 .section-contact .form-contact .single-input input,
 .section-contact .form-contact .single-input textarea {
-	background-color: #791BC9;
+	background-color: #4f128d;
 	width: 100%;
 	border: none;
-	border-bottom: 8px solid #E0009E;
+	border-bottom: 3px solid #E0009E;
 	border-radius: 25px;
 	padding: 20px;
 	padding-bottom: 15px;
@@ -89,19 +89,22 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	transition: border .3s;
+	color:#ffffff;
 }
 
 .section-contact .form-contact .single-input input::placeholder,
 .section-contact .form-contact .single-input textarea::placeholder {
-	color: #3F0770;
+	color: #ffffff;
 }
 
 .section-contact .form-contact .single-input input:focus,
 .section-contact .form-contact .single-input textarea:focus {
-	background-color: #FF2E70;
+	color :#ffffff;
+
+	/*background-color: #FF2E70;
 	border-color: #3F0770;
 	-webkit-animation: slide-in-fwd-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-in-fwd-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-fwd-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;*/
 }
 
 .section-contact .form-contact .single-input textarea {

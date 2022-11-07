@@ -134,3 +134,8 @@ footer span:hover{
 	background-color:#FAFAFA;
 }
 
+.descricao{
+  text-align: left;
+  line-height: 2;
+}
+
