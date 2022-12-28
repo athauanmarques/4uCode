@@ -1,34 +1,28 @@
 <?php
-
-
-$name = $_POST['name'];
+session_start();
+require_once './vendor/autoload.php';
+//Vai pegar os valores dos inputs
+$nome = $_POST['name'];
 $email = $_POST['email'];
-$phoneNumber = $_POST['phoneNumber'];
-$subject = $_POST['subject'];
-$msg = $_POST['mensagem'];
+$telefone = $_POST['phoneNumber'];
+$assunto = $_POST['subject'];
+$mensagem = $_POST['mensagem'];
 
-
-$headers = "From: ". $name;
-
-$corpoemail = '<b>Fale Conosco - 4uCode</b>
-			
-			   Nome: '   .$name.' /n
-			   Email:'   .$email.'/n
-			   Telefone:' .$phoneNumber.'/n
-			   Assunto:' .$subject.' /n
-			   Mensagem:'.$msg.' /n';
-
-
-
-
-if(mail("athauan.marques@gmail.com", "Fale Conosco",$corpoemail,$headers)){
-
-
- 	   echo "<script>alert('Mensagem enviada com sucesso!');</script>";	
- 	   header("Location: index.php");
-
-} else{
-
-      echo "<script>alert('Erro ao enviar, tente diretamente pelo email athauan.marques@gmail.com');</script>";	
+$transport = (new Swift_SmtpTransport('smtp.4ucode.com.br', 587))
+  ->setUsername('tiago.nogueira@4ucode.com.br')
+  ->setPassword('@123Alterar');
+$mailer = new Swift_Mailer($transport);
+$message = (new Swift_Message('Formulário de contato '))
+  ->setFrom(['tiago.nogueira@4ucode.com.br' => 'e'])
+  ->setTo(['isaacroque0209@gmail.com'])
+  ->setBody("olá");
+$result = $mailer->send($message);	
+if($result == 1){
+//foi enviado com sucesso
+	header('Location: ../template/index.php#envio');
+}else{
+	//teve erro...
+	header('Location: ../template/index.php#envio');
 
 }
+?>

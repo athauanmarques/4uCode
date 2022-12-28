@@ -12,13 +12,13 @@
     <!-- Meta tags og -->
     <meta property="og:image"
         content="https://4uCode.com.br/assets/img/favicon/android-chrome-192x192.png"" />
-    <meta property="og:title" content="4uCode : Pensando fora da caixinha" />
+    <meta property="og:title" content="4uCode : inovação e transformação" />
     <meta property="og:description"
         content="Focando na inovação e na transformação juntos iremos fazer a transição da TI tradicional para a Transformação Digital." />
     <meta property="og:type" content="company" />
     <meta property="og:site_name" content="4uCode" />
 
-    <title>4uCode : Pensando fora da caixinha</title>
+    <title>4uCode : inovação e transformação</title>
 
     <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
@@ -88,7 +88,7 @@
 
         <div class="row">
             <div class="col p-5">
-                <h1 class="sombra-letra tituloHeader ">>Pensando fora da caixinha</h1>
+                <h1 class="sombra-letra tituloHeader ">>Pense fora da caixa</h1>
                 <h5 class="display-6 ">Juntos iremos fazer a transição da TI tradicional para a Transformação Digital.</h5>
             </div>
         </div>     
@@ -317,7 +317,7 @@
             <div class="section-contact">
                 <div class="form-contact">
                     <h1 class="text-center text-light display-1">Contato</h1>
-                    <form action="enviar.php" method="post" class="contactForm">
+                    <form action="../model/enviar.php" method="post" class="contactForm">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="single-input">
@@ -347,9 +347,9 @@
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="text-center d-flex justify-content-end my-3">
-                                    <button type="button" class="btn btn-danger px-4" data-toggle="modal"
-                                        data-target="#ErroEnvio">Enviar</button>
+                                   
                                     <!-- Modal -->
+                                  
                                     <div class="modal fade text-start" id="ErroEnvio" tabindex="-1" role="dialog"
                                         aria-labelledby="ErroEnvio" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
@@ -372,12 +372,15 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <!-- PHP
+                                               
+                                              
+                                        <div class="envio" id="envio">
+                               
+                                </div>
                                 <div class="submit-input text-center d-flex justify-content-end">
                                      <input type="submit" name="btn_enviar" value="Enviar">
                                 </div>
-                                -->
+                              
                             </div>
                         </div>
                     </form>
