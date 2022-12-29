@@ -20,6 +20,9 @@
 
     <title>4uCode : inovação e transformação</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -37,8 +40,7 @@
     <link rel="mask-icon" href="./assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#791bc9">
     <meta name="theme-color" content="#ffffff">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
@@ -46,9 +48,11 @@
 <body>
     <!-- Cabeçalho -->
 
-    <header class="container-fluid vh-100">
+
+     <header class="container-fluid vh-100">
         <div class="row p-5">
-            <div class="col-4 d-none d-sm-block mx-5 my-3">
+            <div class="col-4 d-none d-sm-block my-3">
+
                 <a href="https://www.youtube.com/channel/UC29JZNxvv2VnOvl9EBw-wIw" target="_blank"><img
                         class="img-fluid mx-1 hvr-grow-shadow" src="./assets/img/redesSociais/youtube.svg"
                         alt="youtube"></a>
@@ -84,7 +88,11 @@
                 </div>
             </div>
             <!-- </Menu Hamburger> -->
-        </div>
+
+        </div> 
+
+        
+
 
         <div class="row">
             <div class="col p-5">
@@ -100,7 +108,11 @@
     <!-- Cabeçalho: fundo animado -->
     <div id="fundo">
         <lottie-player src=" https://assets9.lottiefiles.com/packages/lf20_zprb9vzj.json" background="transparent"
-            speed="1" style="width: 100%;  height: 100%; position: relative;" loop autoplay>
+
+            speed="1" style="width: 100%; max-width: 100%;  height: 100%; position: relative;" loop autoplay>
+       
+           
+
         </lottie-player>
     </div>
 
@@ -286,14 +298,21 @@
                 </div>
                 <div class="col col-md-6 order-md-1">
                     <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_w51pcehl.json"
-                        background="transparent" speed="1" class="animacao-servicos" loop autoplay>
+
+                        background="transparent" speed="1" class="animacao-servicos animacao-servicos-agile" loop autoplay>
+
+
                     </lottie-player>
                 </div>
             </div>
             <div class="row">
                 <div class="col col-md-6">
                     <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_nxwo0iua.json"
-                        background="transparent" speed="1" class="animacao-servicos" loop autoplay>
+
+                        background="transparent" speed="1" class="animacao-servicos animacao-servicos-agile" loop autoplay>
+
+                       
+
                     </lottie-player>
                 </div>
                 <div class="col- col-md-6">
@@ -396,7 +415,11 @@
             <div class="row">
                 <div class="col-6">
                     <lottie-player src="https://lottie.host/641cfc3e-11b4-48ab-b0de-b18fc84df8c0/UBH0p1bjKT.json"
-                        background="transparent" speed="1" class="animacao-footer" loop autoplay>
+
+                        background="transparent" speed="1" class="animacao-footer animacao-servicos-agile" loop autoplay>
+
+            
+r
                 </div>
                 <div class="col-6">
                     <img class="img-fluid " src="./assets/img/logo/footer-logo.png" alt="">

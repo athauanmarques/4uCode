@@ -138,4 +138,11 @@ footer span:hover{
   text-align: left;
   line-height: 2;
 }
-
+.animacao-servicos-agile {
+  max-width: 100%;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
