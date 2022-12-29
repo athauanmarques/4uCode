@@ -59,7 +59,7 @@
 /*Desktop*/
 @media (min-width: 768px) {
   header h5 {
-    margin-right: 25%;
+    margin-right: 0%;
   }
 
   .servicos h3 col-sms-6 {
